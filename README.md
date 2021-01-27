@@ -63,11 +63,11 @@
 
 ### **_1. config_**
 ##### **1) isAuthinticated.js (inside "config" -> "middleware"):**
-##### _This file restricts routes that user is not allowed to visit if not logged in. If the user is logged in, it continues with the request._
+##### _This file restricts routes that the user is not allowed to visit if not logged in. If the user is logged in, it continues with the request._
 <br />
 
 ##### **2) config.json**
-##### _This file allows the connection configuration to connect to the server (**Make sure change "password" section to your "MySQL password")._
+##### _This file allows the connection configuration to connect to the server (Make sure change "password" section to your "MySQL password")._
 <br />
 
 ##### **3) passport.js**
@@ -76,7 +76,7 @@
 
 ### **_2. models_**
 ##### **1) index.js**
-##### _This file connects to database and imports user log in data._
+##### _This file connects to the database and imports user log-in data._
 <br /> 
 
 ##### **2) user.js**
@@ -84,7 +84,7 @@
 <br />
 
 ### **_3. public_**
-##### _This folder contains HTML, CSS, and Javascrip files that required to create "Front-End" part of the app._
+##### _This folder contains HTML, CSS, and Javascript files that required to create "Front-End" part of the app._
 <br />
 
 ### **_4. routes_**
@@ -93,12 +93,12 @@
 <br />
 
 ##### **2) html-routes.js**
-##### _This file creates a route that check whether the user is logged in, whether user already has an account. It will send the user to the correct html page._
+##### _This file creates a route that checks whether the user is logged in, whether user already has an account. It will send the user to the correct html page._
 <br />
 
 ### **_5. server_**
 ##### **1) server.js**
-##### _This file requires packages, sets up PORT, and creates express, middleware, routes, and sync database. It also logs the message in the terminal on a successful connection to the server._
+##### _This file requires packages, sets up PORT, and creates express, middleware, routes, and sync the database. It also logs the message in the terminal on a successful connection to the server._
 
 
 
