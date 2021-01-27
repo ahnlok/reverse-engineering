@@ -78,7 +78,7 @@
 <br />
 
 ### **_3. public_**
-##### **This folder contains HTML, CSS, and Javascrip files that required to create "Front-End" part of the app.**
+##### _This folder contains HTML, CSS, and Javascrip files that required to create "Front-End" part of the app._
 <br />
 
 ### **_4. routes_**
