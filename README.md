@@ -19,16 +19,16 @@
 4. [Files](#files)
 <br />
 
-### **_Overview_**
-##### _This app allows the user to "Create", "Log-In", and "Log-Out" to the account securely. The user dat will be stored in MySQL database._
+### **Overview**
+##### **_This app allows the user to "Create", "Log-In", and "Log-Out" to the account securely. The user dat will be stored in MySQL database._**
 <br />
 
-## **_Tools_**
+## **Tools**
 ##### _Node.Js, MySQL2, Sequelize, Passport, Express, JavaScript, HTML5, and CSS._
 <br />
 
-## **_Start_**
-##### _1) Create a MySQL database with named "passport_db."_
+## **Start**
+##### _1) Create a MySQL database with named "passport_demo."_
 <br />
 
 ##### _2) Inside "config" folder, go to "config.json", then add your "MySQL password" to "password" sections._
@@ -46,13 +46,14 @@
 ##### **_Now You're All Set!_**
 <br />
 
-## **_Files_**
+## **Files**
 ### **_List of Files for The App_**
 1. [config](#config)
 2. [models](#models)
 3. [public](#public)
 4. [routes](#routes)
 5. [server](#server)
+<br />
 
 ### **_1. config_**
 ##### **1) isAuthinticated.js (inside "config" -> "middleware"):**
