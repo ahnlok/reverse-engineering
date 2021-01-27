@@ -105,7 +105,8 @@
 ---
 ## **Link**
 #### **GitHub Page: <https://github.com/ahnlok/reverse-engineering>**
-#### **Google Doc: <>**
+#### **Deployed GitHub Page: <https://ahnlok.github.io/reverse-engineering/>**
+#### **Google Doc: <https://docs.google.com/document/d/18bsn96WxQt40MnF1k-Qj_XNSOOpFgCUaYbpvUbzWiSU/edit?usp=sharing>**
 ---
 ## **Contact**
 #### **E-Mail: <ansungpil1@gmail.com>**
