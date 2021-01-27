@@ -11,7 +11,6 @@
 ---
 
 ## **Explanation**
-<br />
 
 #### **_List inside this section_**
 1. [Overview](#overview)
