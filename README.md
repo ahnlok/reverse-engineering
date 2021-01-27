@@ -16,19 +16,19 @@
 #### **_List inside this section_**
 1. [Overview](#overview)
 2. [Tools](#tools)
-3. [How To Start The App](#howtostarttheapp)
-4. [File Descriptions](#filedescriptions)
+3. [Start](#start)
+4. [Files](#files)
 <br />
 
 ### **_Overview_**
 ##### _This app allows the user to "Create", "Log-In", and "Log-Out" to the account securely. The user dat will be stored in MySQL database._
 <br />
 
-### **_Tools_**
+## **_Tools_**
 ##### _Node.Js, MySQL2, Sequelize, Passport, Express, JavaScript, HTML5, and CSS._
 <br />
 
-### **_How To Start The App_**
+## **_Start_**
 ##### _1) Create a MySQL database with named "passport_db."_
 <br />
 
@@ -47,7 +47,53 @@
 ##### **_Now You're All Set!_**
 <br />
 
-###
+## **_Files_**
+### **_List of Files for The App_**
+1. [config](#config)
+2. [models](#models)
+3. [public](#public)
+4. [routes](#routes)
+5. [server](#server)
+
+### **_1. config_**
+##### **1) isAuthinticated.js (inside "config" -> "middleware"):**
+##### _This file restricts routes that user is not allowed to visit if not logged in. If the user is logged in, it continues with the request._
+<br />
+
+##### **2) config.json**
+##### _This file allows the connection configuration to connect to the server (**Make sure change "password" section to your "MySQL password")._
+<br />
+
+##### **3) passport.js**
+##### _This file tells passport we want to log in with an email address and password (it contains javascript logic to execute)._
+<br />
+
+### **_2. models_**
+##### **1) index.js**
+##### _This file connects to database and imports user log in data._
+<br /> 
+
+##### **2) user.js**
+##### _This file requires "bcrypt" for password hashing. This makes the database secured even if it is compromised._
+<br />
+
+### **_3. public_**
+##### **This folder contains HTML, CSS, and Javascrip files that required to create "Front-End" part of the app.**
+<br />
+
+### **_4. routes_**
+##### **1) api-routes.js**
+##### _This file contains routes for sign-in, log-out, and getting users the specific data to display on the client side._
+<br />
+
+##### **2) html-routes.js**
+##### _This file creates a route that check whether the user is logged in, whether user already has an account. It will send the user to the correct html page._
+<br />
+
+### **_5. server_**
+##### **1) server.js**
+##### _This file requires packages, sets up PORT, and creates express, middleware, routes, and sync database. It also logs the message in the terminal on a successful connection to the server._
+
 
 
 ---
