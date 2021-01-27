@@ -17,21 +17,26 @@
 2. [Tools](#tools)
 3. [Start](#start)
 4. [Files](#files)
+
 <br />
 
 ### **Overview**
-##### **_This app allows the user to "Create", "Log-In", and "Log-Out" to the account securely. The user dat will be stored in MySQL database._**
+##### -_This app allows the user to "Create", "Log-In", and "Log-Out" to the account securely._ 
+##### -_Upon creating the account, the user data will be stored in MySQL database._
+---
 <br />
 
 ## **Tools**
 ##### _Node.Js, MySQL2, Sequelize, Passport, Express, JavaScript, HTML5, and CSS._
+---
 <br />
 
 ## **Start**
-##### _1) Create a MySQL database with named "passport_demo."_
+##### _1) Create a MySQL database named "passport_demo."_
+
 <br />
 
-##### _2) Inside "config" folder, go to "config.json", then add your "MySQL password" to "password" sections._
+##### _2) Inside the "config" folder, go to "config.json", then add your "MySQL password" to the "password" sections._
 <br />
 
 ##### _3) Run "npm install" in your terminal to download required node packages._
@@ -44,6 +49,7 @@
 <br />
 
 ##### **_Now You're All Set!_**
+---
 <br />
 
 ## **Files**
